@@ -1,4 +1,0 @@
-reg_name = player
-color = 0.2, 0.6, 1.0
-friendly = player, neutral
-hostile = enemy
