@@ -1,9 +1,0 @@
-reg_name = apple
-world_model = props/food_apple/food_apple_01_2k.gltf
-world_texture = props/food_apple_01_diff_2k.jpg
-
-scale = 0.25
-type = consumable
-effect = heal
-value = 15
-stack_max = 5

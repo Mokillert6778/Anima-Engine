@@ -1,4 +1,0 @@
-reg_name = neutral
-color = 0.8, 0.8, 0.4
-friendly = player, neutral, enemy
-hostile =
