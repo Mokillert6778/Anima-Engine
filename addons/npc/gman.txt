@@ -1,0 +1,22 @@
+reg_name = gman
+world_model = NPC\gman\gman.mdl
+scale = 1.8
+# 模型朝向修正（度）。默认引擎已给蒙皮模型补了 -90°。
+# Zombie/Classic.mdl 实测需要 +90（控制台 `yaw 90` 验证有效）。
+# 若脚下还差几厘米：每次 0.1 调，负数=往下压
+y_offset = 0.000
+yoff -0.3
+hp = 100
+
+# 敌对阵营：玩家遇到就会进入 chase（追踪）状态
+faction = enemy
+weapon =
+# 视野要大，才能远距离发现并追过来
+sight_range = 40
+# 进到这个距离就停下攻击（手上有武器时才会真的开火）
+attack_range = 2.2
+walk_speed = 3.2
+
+# 没有敌人时随机漫步；发现玩家后 AI 会自动切到 chase
+move_mode = wander
+wander_radius = 10

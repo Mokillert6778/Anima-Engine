@@ -1,0 +1,21 @@
+reg_name = smg1
+world_model = weapon\v_smg1\v_smg1.mdl
+
+# ---- 数据 ----
+ammo = smg_bullet
+fire_rate = 11.0         # 每秒 11 发
+magazine = 45
+reserve_ammo = 270
+fire_sound =
+
+# ---- 第一人称外观（相机空间，单位米：+X 右 / +Y 上 / -Z 前）----
+scale = 1.0
+rotation = 0,0,0
+offset = 0.18,-0.26,-0.30
+recoil = 0.7             # 连发后坐小一点
+alpha_test = 0
+
+# ---- 输入 ----
+attack1_key = lmb
+attack2_key = rmb
+alt_fire_cooldown = 0.5

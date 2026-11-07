@@ -1,0 +1,11 @@
+reg_name = lake
+color = 0.18, 0.20, 0.19
+alpha = 0.78
+wave_scale = 0.4
+wave_speed = 0.5
+wave_height = 0.5
+fresnel = 5.0
+sun_sharp = 600
+sun_strength = 6.0
+sky_horizon = 0.60, 0.75, 0.90
+sky_zenith = 0.15, 0.30, 0.55

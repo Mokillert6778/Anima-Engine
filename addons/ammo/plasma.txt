@@ -1,0 +1,22 @@
+# 充能弹（武器脚本里用 ammo="plasma" 发射，见 addons/weapon/physcannon.py）
+
+reg_name = plasma
+
+speed = 18              # 慢速等离子球
+damage = 60
+life = 6.0
+gravity = 0
+hit_radius = 0.28       # 判定比子弹粗，打大目标更容易
+
+visual = sprite
+size = 0.42
+color = 0.45, 0.75, 1.0
+
+# 也可以试试这些：
+# visual = tracer
+# size = 0.1
+# color = 0.4, 0.7, 1.0
+#
+# visual = model
+# model = props/rubber_duck_toy.gltf
+# size = 0.5

@@ -1,0 +1,31 @@
+# 弹药 / 抛射物定义（addons/ammo/*.txt）
+#
+# reg_name 就是武器 addon 里 `ammo = ...` 填的名字。
+# 这里决定"射出去的东西长什么样、怎么飞、打多疼"。
+
+reg_name = 手枪子弹
+
+# ---- 飞行 / 伤害 ----
+speed = 45              # 初速，米/秒
+damage = 12             # 命中伤害
+life = 3.0              # 存活秒数（到点自动消失）
+gravity = 0             # 下坠系数：0 = 直线，1 ≈ 9.8 m/s²
+hit_radius = 0.1        # 命中判定加粗（米），0 = 只判点
+
+# ---- 外观 ----
+# visual = sprite | tracer | model | none
+#   sprite  加色发光圆片（默认，透视缩放）
+#   tracer  沿速度方向拉长的光条
+#   model   真的画一个模型（mdl / obj / gltf），沿速度方向摆放
+#   none    不画（hitscan 风格）
+visual = sprite
+size = 0.09             # sprite = 直径(米)；tracer = 宽度(米)；model = 长度(米)
+color = 1.0, 0.85, 0.45 # 着色（加色叠加）
+alpha = 1.0             # 整体透明度
+glow = 1                # 是否加色发光（0 = 普通混合）
+
+# 贴图：sprite / tracer 用的图（留空 = 引擎内置的圆形光晕）
+# texture = effects/spark.png
+#
+# 模型：visual = model 时用
+# model = props/plasma_ball.gltf

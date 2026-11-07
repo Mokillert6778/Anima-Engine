@@ -1,0 +1,4 @@
+reg_name = enemy
+color = 1.0, 0.2, 0.2
+friendly = enemy
+hostile = player, neutral

@@ -1,0 +1,10 @@
+reg_name = pellet_shotgun
+speed = 90
+damage = 8
+life = 2.5
+gravity = 0
+hit_radius = 0.06
+visual = tracer
+size = 0.04
+color = 1.0,0.92,0.60
+alpha = 0.85

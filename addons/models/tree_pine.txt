@@ -1,0 +1,5 @@
+reg_name = tree_pine
+world_model = props\tree_pine.obj
+world_texture = models/props/tree_pine.png
+scale = 1.0
+category = Model

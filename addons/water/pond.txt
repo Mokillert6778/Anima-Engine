@@ -1,0 +1,14 @@
+reg_name = pond
+# Still, shallow pond water: dark and calm. `alpha` also scales the sky
+# reflection on the surface pass, so a low value keeps a small pond from
+# turning into a mirror of the bright horizon haze.
+color = 0.14, 0.18, 0.15
+alpha = 0.45
+wave_scale = 0.28
+wave_speed = 0.35
+wave_height = 0.28
+fresnel = 6.0
+sun_sharp = 700
+sun_strength = 4.0
+sky_horizon = 0.45, 0.60, 0.72
+sky_zenith = 0.10, 0.24, 0.46

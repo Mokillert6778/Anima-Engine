@@ -1,0 +1,17 @@
+reg_name = combine_soldier_armed
+# Combine soldier that carries a weapon: it keeps its distance and shoots.
+world_model = NPC\combine_soldier\combine_soldier.mdl
+scale = 1.8
+yaw_offset = 90.0
+y_offset = 0.000
+hp = 100
+
+faction = combine
+weapon = smg1
+sight_range = 45
+# stop and fire from a distance instead of walking into the player
+attack_range = 16.0
+walk_speed = 3.2
+
+move_mode = wander
+wander_radius = 12

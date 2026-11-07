@@ -1,0 +1,8 @@
+reg_name = ammo_small
+world_model = props/boxmrounds/boxmrounds.mdl
+
+scale = 0.45
+type = consumable
+effect = ammo
+value = 30
+stack_max = 10
